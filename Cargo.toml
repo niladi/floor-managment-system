@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "user",
+    "shop",
+    "duty",
+    "rest"
+]
