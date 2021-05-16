@@ -15,4 +15,4 @@ To throw some bustwords:
 
 
 ## Structure
-![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/niladi/floor-managment-system/master/assets/structure.iuml)
+![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/niladi/floor-managment-system/main/assets/structure.iuml)
