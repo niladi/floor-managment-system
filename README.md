@@ -15,32 +15,4 @@ To throw some bustwords:
 
 
 ## Structure
-```plantuml
-@startuml component
-
-    package "System" {
-        [REST-WebInterface] as rest
-        [User] as user
-        [Shop] as shop
-        [Duty] as duty
-        [DB Connector] as db
-
-
-        rest --> user
-        rest --> shop
-        rest --> duty 
-
-        db --> user
-        db --> shop
-        db --> duty 
-        rest - http
-
-    }
-
-    database Database
-    package Frontend 
-
-    Frontend --> http
-    Database <-- db
-@enduml
-```
+![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/niladi/floor-managment-system/master/assets/structure.iuml)
